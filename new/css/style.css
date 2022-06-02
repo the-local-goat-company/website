@@ -191,7 +191,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Dancing Script', cursive;
 	color: #fff;
-	font-size: 10em;
+	font-size: 5em;
 	font-weight: 700;
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -202,7 +202,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro p {
 	color: #fff;
-	font-size: 32px;
+	font-size: 20px;
 	font-weight: 300;
 	margin-top: 10px;
 	margin-bottom: 40px;
