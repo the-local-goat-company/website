@@ -23,6 +23,7 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+<link href='js/cal/main.css' rel='stylesheet' />
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,7 +49,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about" class="page-scroll">About</a></li>
-        <!-- <li><a href="#goat-yoga" class="page-scroll">Goat Yoga</a></li> -->
+        <li><a href="#goat-yoga" class="page-scroll">Goat Yoga</a></li>
+        <li><a href="#event-schedule" class="page-scroll">Event Schedule</a></li>
         <li><a href="#footer" class="page-scroll">Contact</a></li>
       </ul>
     </div>
@@ -89,7 +91,7 @@
 </div>
 
 <!-- Goat Yoga Section -->
-<!-- <div id="goat-yoga">
+<div id="goat-yoga">
   <div class="section-title text-center center">
     <div class="overlay">
       <br/>
@@ -109,7 +111,8 @@
         <div class="about-text">
           <h2>Goat Yoga</h2>
           <hr>
-          <p style="font-weight: bold;">Our yoga instructors and baby and miniature goats will lead you through some beginner flows along the banks of the beautiful Tomorrow River.</p>
+          <p> Yoga classes have concluded for the 2022 season.  Goat yoga will be back in Spring of 2023 with some new members!</p>
+          <!-- <p style="font-weight: bold;">Our yoga instructors and baby and miniature goats will lead you through some beginner flows along the banks of the beautiful Tomorrow River.</p>
           
           <div style="margin-bottom: 25px">
             <a href="https://www.eventbrite.com/e/350756380777" class="btn btn-custom btn-lg" target="_blank">Buy Tickets</a>
@@ -121,7 +124,7 @@
           <p>Please bring yoga mats, hair ties, and clothes you don't mind getting stepped on! We have sanitized yoga mats available to rent for $1.00</p>
           <p>We recommend not wearing loose fitting clothing... the goats like to nibble.</p>
           <p>All classes are weather permitting and held outside.</p>
-          
+           -->
           <br/>
           <br/>
         </div>
@@ -132,7 +135,24 @@
     </div><br/>
     <br/>
   </div>
-</div> -->
+</div>
+
+
+<!-- Event Schedule Section -->
+<div id="event-schedule">
+  <div class="section-title text-center center">
+    <div class="overlay">
+      <p>Event Schedule</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id='calendar'></div>
+    </div><br/>
+    <br/>
+  </div>
+</div>
+
 
 <div id="footer">
   <div class="container text-center">
@@ -180,5 +200,34 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
+<script src='js/cal/main.js'></script>
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+      events: [
+      {
+        title  : 'Goats on premises',
+        start  : '2022-07-20'
+      },
+      {
+        title  : 'Goats on premises',
+        start  : '2022-07-27'
+      },
+      {
+        title  : 'Live Music - Alex Dalnodar',
+        start  : '2022-08-28T14:00:00',
+        end    : '2022-08-28T16:30:00',
+        allDay : false
+      }
+    ],
+    eventDisplay: 'block'
+    });
+    calendar.render();
+  });
+
+</script>
 </body>
 </html>
