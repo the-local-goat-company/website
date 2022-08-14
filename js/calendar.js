@@ -1,3 +1,8 @@
+let colors = {
+    bbq: '#f41725',
+    old: '#D3D3D3'
+}
+
 let pad = function(num, size) {
     num = num.toString();
     while (num.length < size) num = "0" + num;
@@ -37,6 +42,21 @@ let get_events = function(info, successCallback, failureCallback) {
     });
 }
 
+let process_event = function(args){
+    props = args.event.extendedProps
+    if('category' in props){
+        if(props['category'] == 'food'){
+            $(args.el).css('background-color', colors.bbq)
+        }
+    }
+
+    today = new Date()
+
+    if(args.event.start && args.event.start < today){
+        $(args.el).css('background-color', colors.old)
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     let $modal_title = $('.modal-title')
     let $modal_body = $('.modal-body')
@@ -60,10 +80,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 $modal_body.append('<br/><br/>')
             }
 
-            let times = `
-                <div> Start: ${format_time(info.event.start)} </div>
-                <div> End: ${format_time(info.event.end)} </div>
-            `
+            let times = ''
+
+            if(info.event.start){
+                times += `<div> Start: ${format_time(info.event.start)} </div>`
+            }
+
+            if(info.event.end){
+                times += `<div> End: ${format_time(info.event.end)} </div>`
+            }
 
             $modal_body.append(times)
 
@@ -72,7 +97,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // change the border color just for fun
             info.el.style.borderColor = 'red';
             el_last_event = info.el;
-          }
+          },
+          eventDidMount : process_event
     });
+
     calendar.render();
 });
