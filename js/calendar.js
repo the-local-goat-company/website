@@ -50,11 +50,13 @@ let process_event = function(args){
         }
     }
 
-    today = new Date()
+    // today = new Date()
 
-    if(args.event.start && args.event.start < today){
-        $(args.el).css('background-color', colors.old)
-    }
+    // if(args.event.start && args.event.start < today){
+    //     $(args.el).css('background-color', colors.old)
+    // }
+
+    // $(args.el).css('border-color', colors.old)
 }
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -67,9 +69,10 @@ document.addEventListener('DOMContentLoaded', function() {
         initialView: 'dayGridMonth',
         events: get_events,
         eventDisplay: 'block',
+        eventBorderColor: '#ffffff',
         eventClick: function(info) {
             if(el_last_event){
-                el_last_event.style.removeProperty('border-color')
+                $(el_last_event).css('border-color', '#ffffff')
             }
 
             $modal_title.html(info.event.title)
@@ -94,8 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             $('#eventModal').modal()
         
-            // change the border color just for fun
-            info.el.style.borderColor = 'red';
+            $(info.el).css('border-color', '#000000')
             el_last_event = info.el;
           },
           eventDidMount : process_event
