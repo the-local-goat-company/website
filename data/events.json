@@ -35,6 +35,13 @@
     "allDay" : false
   },
   {
+    "title"  : "Ignite Backstage Pass",
+    "description": "Come check out the new bar in Amherst, The Local Goat Company! Owners Tiffany Gile and Tammy Carlson will give a tour and share the history of how the business came to be. Our own Ignite Board Member, Amanda Ross, will lead the Mimosas and Yoga class. After yoga, unwind with pizza from Angelo's Pizza and drinks from The Local Goat Company! The goats will also be onsite that evening. <br/><br/> For Mimosas and Yoga: -Bring your own yoga mat or rent one from The Local Goat Company for $1 -Dress in comfortable, activewear <br/><br/> Appetizers will be provided by Ignite. Full cash bar will be available. The event is $5 for Ignite Members and $10 for non-members <br/><br/> Event Timeline -6:00-6:45: welcome, and Mimosa Yoga -6:45/7:00 - 8:00: Tour of the Local Goat Company, Pizza from Angelo's Pizza, and Networking <br/><br/> Thank you to the UWSP MBA Program for being our Ignite Fuel Sponsor! <br/><br/> <a href='https://fb.me/e/3u8SIHr7Q' target='_blank'>See Facebook Event</a>",
+    "start"  : "2022-09-28T18:00:00",
+    "end"    : "2022-09-28T20:00:00",
+    "allDay" : false
+  },
+  {
     "title"  : "Food - Beard Bros BBQ",
     "start"  : "2022-09-29T16:00:00",
     "end"    : "2022-09-29T21:00:00",
