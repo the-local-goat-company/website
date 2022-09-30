@@ -70,6 +70,14 @@ document.addEventListener('DOMContentLoaded', function() {
         events: get_events,
         eventDisplay: 'block',
         eventBorderColor: '#ffffff',
+        eventMouseEnter: function(event){
+            $(event.el).css('border-color', '#000000')
+            $(event.el).css('cursor', 'pointer')
+        },
+        eventMouseLeave: function(event){
+            $(event.el).css('border-color', '#ffffff')
+            $(event.el).css('cursor', 'auto')
+        },
         eventClick: function(info) {
             if(el_last_event){
                 $(el_last_event).css('border-color', '#ffffff')
@@ -83,17 +91,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 $modal_body.append('<br/><br/>')
             }
 
-            let times = ''
+            if(!info.event.allDay){
+                let times = ''
 
-            if(info.event.start){
-                times += `<div> Start: ${format_time(info.event.start)} </div>`
+                if(info.event.start){
+                    times += `<div> Start: ${format_time(info.event.start)} </div>`
+                }
+
+                if(info.event.end){
+                    times += `<div> End: ${format_time(info.event.end)} </div>`
+                }
+
+                $modal_body.append(times)
             }
-
-            if(info.event.end){
-                times += `<div> End: ${format_time(info.event.end)} </div>`
-            }
-
-            $modal_body.append(times)
 
             $('#eventModal').modal()
         

@@ -57,9 +57,139 @@
   },
   {
     "title"  : "Food - Beard Bros BBQ",
-    "start"  : "2022-09-31T16:00:00",
-    "end"    : "2022-09-31T21:00:00",
+    "start"  : "2022-10-01T16:00:00",
+    "end"    : "2022-10-01T21:00:00",
     "allDay" : false,
     "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-06T16:00:00",
+    "end"    : "2022-10-06T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-07T16:00:00",
+    "end"    : "2022-10-07T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-08T16:00:00",
+    "end"    : "2022-10-08T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Pancakes, Packers, and Pajamas!",
+    "description": "Come join us and start off your Sunday morning with some mimosas, bloodies, pancakes, and Packers!!! <br/><br/> <a href='https://fb.me/e/1SiTg9Eaj' target='_blank'>See Facebook Event</a>",
+    "start"  : "2022-10-09T08:30:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Chess Tournament",
+    "description": "Double elimination chess tournament. Timed games based on number of participants. $15 entry fee, $10 is for prize pool and $5 goes towards any drink at the bar. Sign up at the bar or email: info@thelocalgoatcompany.com <br/><br/> <a href='https://fb.me/e/5UVGuy1rg' target='_blank'>See Facebook Event</a>",
+    "start"  : "2022-10-09T13:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-13T16:00:00",
+    "end"    : "2022-10-13T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-14T16:00:00",
+    "end"    : "2022-10-14T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-15T16:00:00",
+    "end"    : "2022-10-15T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Charity Rummage Sale",
+    "description": "",
+    "start"  : "2022-10-16",
+    "end"    : "2022-10-19",
+    "allDay" : true
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-20T16:00:00",
+    "end"    : "2022-10-20T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-21T16:00:00",
+    "end"    : "2022-10-21T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-22T16:00:00",
+    "end"    : "2022-10-22T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Craft Night: Paint for the Holidays",
+    "description": "Come enjoy a drink and paint a cute door hanger to start the holidays off right! <br/><br/> <a href='https://fb.me/e/1USmmvlx3' target='_blank'>See Facebook Event</a>",
+    "start"  : "2022-10-26T18:00:00",
+    "end"    : "2022-10-26T20:30:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-27T16:00:00",
+    "end"    : "2022-10-27T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-28T16:00:00",
+    "end"    : "2022-10-28T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-10-29T16:00:00",
+    "end"    : "2022-10-29T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Trick or Treating",
+    "description": "",
+    "start"  : "2022-10-30T15:00:00",
+    "end"    : "2022-10-30T18:30:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Let's Paint Events at The Local Goat",
+    "description": "A guided painting. A great night out. Let's Paint Events is all about getting creative, laughing, and having fun. Come and enjoy some time to get creative with friends and paint this stunning Starry Night scene. We will use a blow dryer to move paint around the canvas, salt, brushes, paper towels, and napkins to paint this amazing scene. You won't want to miss a crazy-good time! Your ticket includes a 16 x 20-inch canvas and supplies to produce a finished painting in this 2 hour class with step-by-step instructions. Beginners welcome! No experience is needed. Space is limited so reserve your seat now! <br/><br/> <a href='https://fb.me/e/28T8ROJKm' target='_blank'>See Facebook Event</a>",
+    "start"  : "2022-11-02T18:00:00",
+    "end"    : "2022-11-02T20:30:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Singles Night",
+    "description": "Join us for a fun night of meeting some new people!",
+    "start"  : "2022-12-07T18:00:00",
+    "allDay" : false
   }
 ]
