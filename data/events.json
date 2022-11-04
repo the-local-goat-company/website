@@ -187,9 +187,259 @@
     "allDay" : false
   },
   {
-    "title"  : "Singles Night",
-    "description": "Join us for a fun night of meeting some new people!",
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-11-03T16:00:00",
+    "end"    : "2022-11-03T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-11-04T16:00:00",
+    "end"    : "2022-11-04T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-11-05T16:00:00",
+    "end"    : "2022-11-05T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Taco Tuesday",
+    "start"  : "2022-11-08T16:00:00",
+    "end"    : "2022-11-08T20:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-11-10T16:00:00",
+    "end"    : "2022-11-10T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-11-11T16:00:00",
+    "end"    : "2022-11-11T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-11-12T16:00:00",
+    "end"    : "2022-11-12T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Drunk Spelling Bee",
+    "description": "At the start of each round each player will be given a word. If the player spells it correctly, they move on to the next round. If the player spells it incorrectly, they must leave the stage or the audience can buy them a shot to stay in the game. The audience can only buy the player one shot to stay in the game. Shots need to be done on stage in front of the judges. <br/><br/>Must be 21+ to play",
+    "start"  : "2022-11-12T20:30:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Taco Tuesday",
+    "start"  : "2022-11-15T16:00:00",
+    "end"    : "2022-11-15T20:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-11-17T16:00:00",
+    "end"    : "2022-11-17T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-11-18T16:00:00",
+    "end"    : "2022-11-18T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-11-19T16:00:00",
+    "end"    : "2022-11-19T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Widows Weekend Wine 101",
+    "description": "",
+    "start"  : "2022-11-18T18:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Taco Tuesday",
+    "start"  : "2022-11-22T16:00:00",
+    "end"    : "2022-11-22T20:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-11-25T16:00:00",
+    "end"    : "2022-11-25T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-11-26T16:00:00",
+    "end"    : "2022-11-26T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Taco Tuesday",
+    "start"  : "2022-11-29T16:00:00",
+    "end"    : "2022-11-29T20:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-01T16:00:00",
+    "end"    : "2022-12-01T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-02T16:00:00",
+    "end"    : "2022-12-02T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-03T16:00:00",
+    "end"    : "2022-12-03T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Taco Tuesday",
+    "start"  : "2022-12-06T16:00:00",
+    "end"    : "2022-12-06T20:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Dinner in my Kitchen",
     "start"  : "2022-12-07T18:00:00",
     "allDay" : false
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-08T16:00:00",
+    "end"    : "2022-12-08T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-09T16:00:00",
+    "end"    : "2022-12-09T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-10T16:00:00",
+    "end"    : "2022-12-10T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Taco Tuesday",
+    "start"  : "2022-12-13T16:00:00",
+    "end"    : "2022-12-13T20:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Singles Night",
+    "description": "Join us for a fun night of meeting some new people!",
+    "start"  : "2022-12-14T18:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-15T16:00:00",
+    "end"    : "2022-12-15T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-16T16:00:00",
+    "end"    : "2022-12-16T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-17T16:00:00",
+    "end"    : "2022-12-17T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Ugly Sweater Christmas Party",
+    "start"  : "2022-12-16T18:30:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Dinner in my Kitchen",
+    "start"  : "2022-12-20T18:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-22T16:00:00",
+    "end"    : "2022-12-22T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-23T16:00:00",
+    "end"    : "2022-12-23T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Taco Tuesday",
+    "start"  : "2022-12-27T16:00:00",
+    "end"    : "2022-12-27T20:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Kids Craft Night",
+    "start"  : "2022-12-28T16:00:00",
+    "end"  : "2022-12-28T18:00:00",
+    "allDay" : false
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-29T16:00:00",
+    "end"    : "2022-12-29T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-30T16:00:00",
+    "end"    : "2022-12-30T21:00:00",
+    "allDay" : false,
+    "category": "food"
+  },
+  {
+    "title"  : "Food - Beard Bros BBQ",
+    "start"  : "2022-12-31T16:00:00",
+    "end"    : "2022-12-31T21:00:00",
+    "allDay" : false,
+    "category": "food"
   }
 ]
