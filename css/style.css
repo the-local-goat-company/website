@@ -242,11 +242,11 @@ header .intro-text {
 }
 
 /* Goat Yoga Section */
-#goat-yoga .section-title {
+#goat-yoga-section .section-title {
 	background: #444 url(../img/goats.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
-#goat-yoga .section-title h2 {
+#goat-yoga-section .section-title h2 {
 	color: #fff;
 }
 
